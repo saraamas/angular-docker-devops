@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular 17 example project: CRUD with Rest API
 
 Build an Angular 17 CRUD example App to consume Rest APIs, display, modify & search data.
@@ -70,3 +71,35 @@ Integration (run back-end & front-end on same server/port)
 > [How to integrate Angular with Node Restful Services](https://bezkoder.com/integrate-angular-12-node-js/)
 
 > [How to Integrate Angular with Spring Boot Rest API](https://bezkoder.com/integrate-angular-12-spring-boot/)
+=======
+# Spring Boot + Angular 17 CRUD example
+
+Full-stack Angular 17 + Spring Boot Tutorial CRUD Application in that:
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- We can also find Tutorials by title.
+
+![spring-boot-angular-17-example-crud.png](spring-boot-angular-17-example-crud.png)
+
+> [Spring Boot + Angular 17 CRUD example](https://www.bezkoder.com/spring-boot-angular-17-crud/)
+
+Run both Back-end & Front-end in one place:
+> [Integrate Angular with Spring Boot Rest API](https://www.bezkoder.com/integrate-angular-12-spring-boot/)
+
+More Practice:
+> [Angular + Spring Boot: File upload example](https://www.bezkoder.com/angular-17-spring-boot-file-upload/)
+
+> [Angular + Spring Boot: JWT Authentication and Authorization example](https://www.bezkoder.com/angular-17-spring-boot-jwt-auth/)
+
+## Run Spring Boot application
+```
+mvn spring-boot:run
+```
+The Spring Boot Server will export API at port `8081`.
+
+## Run Angular Client
+```
+npm install
+ng serve --port 8081
+```
+>>>>>>> 0a91c4babd367f77fc87516ed529b00dae5da4ac
